@@ -1,0 +1,18 @@
+{
+    "name": "zig_tryout",
+    "dockerComposeFile": "${localWorkspaceFolder}/docker-compose.yml",
+    "service": "main",
+    "workspaceFolder": "/home/${localEnv:USER}/zig_tryout",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ybaumes.highlight-trailing-white-spaces",
+                "ziglang.vscode-zig"
+            ]
+        }
+    }
+}
