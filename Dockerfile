@@ -2,7 +2,8 @@ FROM archlinux:latest
 
 RUN pacman -Sy --noconfirm \
     zig \
-    git
+    git \
+    less
 
 ARG USER
 ARG UID
