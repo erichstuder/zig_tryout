@@ -2,7 +2,9 @@ FROM archlinux:latest
 
 RUN pacman -Sy --noconfirm \
     zig \
-    git
+    git \
+    less \
+    bash-completion
 
 ARG USER
 ARG UID
